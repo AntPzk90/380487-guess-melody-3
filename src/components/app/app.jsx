@@ -9,6 +9,7 @@ const App = (props) => {
   return (
     <WelcomeScreen
       errorsCount = {errorsCount}
+      welcomeButtonHandler = {() => {}}
     />
   );
 };
